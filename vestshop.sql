@@ -16,8 +16,7 @@ INSERT INTO `jobs` (name, label) VALUES
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
 	('vestshop',0,'recruit','Recruit',35,'{}','{}'),
-	('vestshop',1,'guard','Guard',50,'{}','{}'),
-	('vestshop',4,'boss','Boss',120,'{}','{}')
+	('vestshop',1,'boss','Boss',120,'{}','{}'),
 ;
 
 
