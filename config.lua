@@ -4,10 +4,6 @@ Config.MarkerType = 20
 Config.MarkerSize = { x = 1.5, y = 1.5, z = 0.5}
 Config.MarkerColor = { r = 255, g = 0, b = 0}
 
-Config.EnablePlayerManagement = true
-Config.EnableArmoryManagement = true
-
-Config.EnableJobBlip = true
 
 Config.NeededItem = 'iron'
 Config.NeededItemAmount = 1
@@ -22,19 +18,12 @@ Config.VestShop = {
             Scale = 1.2,
             Colour = 2
         },
-
-        FrontDoor = {
-            vector3(-1379.58, -499.63, 32.22)
-        },
-
         Cloakrooms = {
             vector3(-1380.84, -466.65, 72.04)
         },
-        
         Craft = {
             vector3(-1380.43, -469.35, 72.04)
         },
-
         BossActions = {
             vector3(-1373.02, -464.2, 72.04)
         },
@@ -58,30 +47,6 @@ Config.VestShop = {
 
 Config.Uniforms = {
     recruit_wear = {
-        male = {
-            ['tshirt_1'] = 15,  ['tshirt_2'] = 0,
-			['torso_1'] = 50,   ['torso_2'] = 0,
-			['decals_1'] = 0,   ['decals_2'] = 0,
-			['arms'] = 11,
-			['pants_1'] = 34,   ['pants_2'] = 0,
-			['shoes_1'] = 25,   ['shoes_2'] = 0,
-			['helmet_1'] = 65,  ['helmet_2'] = 0,
-			['chain_1'] = 0,    ['chain_2'] = 0,
-			['ears_1'] = 2,     ['ears_2'] = 0
-        },
-        female = {
-            ['tshirt_1'] = 36,  ['tshirt_2'] = 1,
-			['torso_1'] = 48,   ['torso_2'] = 0,
-			['decals_1'] = 0,   ['decals_2'] = 0,
-			['arms'] = 44,
-			['pants_1'] = 34,   ['pants_2'] = 0,
-			['shoes_1'] = 27,   ['shoes_2'] = 0,
-			['helmet_1'] = 45,  ['helmet_2'] = 0,
-			['chain_1'] = 0,    ['chain_2'] = 0,
-			['ears_1'] = 2,     ['ears_2'] = 0
-        }
-    },
-    guard_wear = {
         male = {
             ['tshirt_1'] = 15,  ['tshirt_2'] = 0,
 			['torso_1'] = 50,   ['torso_2'] = 0,
