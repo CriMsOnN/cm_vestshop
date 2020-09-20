@@ -3,6 +3,8 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
+TriggerEvent('esx_society:registerSociety', 'vestshop', 'Vestshop', 'society_vestshop', 'society_vestshop', 'society_vestshop', {type = 'public'})
+
 RegisterNetEvent('cm_vestshop:removeItemAddItem')
 AddEventHandler('cm_vestshop:removeItemAddItem', function(item) 
     local xPlayer = ESX.GetPlayerFromId(source)
