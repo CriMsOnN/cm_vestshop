@@ -20,3 +20,8 @@ INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_
 ;
 
 
+INSERT INTO `items` (name, label, weight, rare, can_remove) VALUES
+    ('iron', 'Iron', 1, 0, 1),
+    ('bulletproof', 'Bullet Proof', 1, 0, 1),
+;
+

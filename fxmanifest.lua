@@ -10,3 +10,8 @@ server_scripts {
     'server/main.lua',
     'config.lua'
 }
+
+dependencies {
+	'mythic_notify',
+	'progressBars'
+}
