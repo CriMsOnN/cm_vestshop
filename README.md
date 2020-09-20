@@ -7,6 +7,8 @@
   * [mythic_notify](https://github.com/FlawwsX/mythic_notify)
 * Progress Bars
   * [progressBars](https://github.com/EthanPeacock/progressBars)
+* bob74_ipl
+  * [bob74_ipl](https://github.com/Bob74/bob74_ipl)
   
 ### Using Git
 ```

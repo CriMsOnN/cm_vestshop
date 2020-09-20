@@ -13,5 +13,6 @@ server_scripts {
 
 dependencies {
 	'mythic_notify',
-	'progressBars'
+    'progressBars',
+    'bob74_ipl'
 }
